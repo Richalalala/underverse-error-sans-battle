@@ -8,9 +8,12 @@
 /* BODY --------------------------------------------- */
 #home {
     text-align: center;
-    font-size: 10px;
     font-family: 'determination', sans-serif;
     background-color: rgb(152, 245, 248);
+}
+
+p {
+ font-size: 10px;
 }
 
 .cabeçalho {
