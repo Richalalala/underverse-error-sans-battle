@@ -1,10 +1,10 @@
 @font-face {
     font-family: determination;
-    src: url(determination.otf);
+    src: url(determination.woff2);
     font-family: 'monster friend back';
-    src: url(MonsterFriendBack.otf);
+    src: url(MonsterFriendBack.woff2);
     font-family: 'monster friend fore';
-    src: url(MonsterFriendFore.otf);
+    src: url(MonsterFriendFore.woff2);
 }
 
 /* BODY --------------------------------------------- */
