@@ -1,13 +1,8 @@
 @font-face {
-    font-family: determination;
-    src: url(determination.woff2)
-    format('woff2');
-    font-family: 'monster friend back';
-    src: url(MonsterFriendBack.woff2)
-    format('woff2');
-    font-family: 'monster friend fore';
-    src: url(MonsterFriendFore.woff2)
-    format('woff2');
+  font-family: 'determination';
+  src: url('determination.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
 }
 
 /* BODY --------------------------------------------- */
