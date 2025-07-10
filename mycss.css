@@ -1,11 +1,14 @@
 @font-face {
   font-family: 'determination';
   src: url('determination.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
 }
 
 /* BODY --------------------------------------------- */
 #home {
     text-align: center;
+    font-size: 18px;
     font-family: determination;
     background-color: rgb(152, 245, 248);
 }
