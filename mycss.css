@@ -94,7 +94,7 @@ a:hover {
 
 /* HOME --------------------------------------------- */
 #p1home_1 {
-    font-size: 125%;
+    font-size: 150%;
     color: white;
     -webkit-text-stroke-color: black;
     -webkit-text-stroke-width: 0.75px;
@@ -121,7 +121,7 @@ a:hover {
 
 /* PAGE 1 --------------------------------------------- */
 #p1page1_1 {
-    font-size: 125%;
+    font-size: 7.5px;
     color: white;
     -webkit-text-stroke-color: black;
     -webkit-text-stroke-width: 0.75px;
@@ -139,7 +139,7 @@ a:hover {
 
 #p1page1_4 {
     color: white;
-    font-size: 115%;
+    font-size: 6.5px;
     -webkit-text-stroke-color: rgb(255, 117, 117);
     -webkit-text-stroke-width: 1.25px;
 }
@@ -177,42 +177,42 @@ a:hover {
     color: white;
     -webkit-text-stroke-color: red;
     -webkit-text-stroke-width: 0.65px;
-    font-size: 125%;
+    font-size: 7.5px;
 }
 
 .white {
     color: white;
     -webkit-text-stroke-color: black;
     -webkit-text-stroke-width: 0.65px;
-    font-size: 125%;
+    font-size: 7.5px;
 }
 
 .blue {
     color: white;
     -webkit-text-stroke-color: cyan;
     -webkit-text-stroke-width: 0.65px;
-    font-size: 125%;
+    font-size: 7.5px;
 }
 
 .darkblue {
     color: white;
     -webkit-text-stroke-color: blue;
     -webkit-text-stroke-width: 0.65px;
-    font-size: 125%;
+    font-size: 7.5px;
 }
 
 .orange {
     color: white;
     -webkit-text-stroke-color: orange;
     -webkit-text-stroke-width: 0.65px;
-    font-size: 125%; 
+    font-size: 7.5px; 
 }
 
 .hp {
     color: rgb(0, 255, 0);
     -webkit-text-stroke-color: white;
     -webkit-text-stroke-width: 0.65px;
-    font-size: 125%; 
+    font-size: 7.5px; 
 }
 /* --------------------------------------------- */
 
@@ -221,7 +221,7 @@ a:hover {
     color: black;
     -webkit-text-stroke-color: white;
     -webkit-text-stroke-width: 0.65px;
-    font-size: 125%;
+    font-size: 7.5px;
 }
 
 #tips1 {
