@@ -51,7 +51,8 @@ h6 {
 }
 
 .cabeçalho {
-    background-color: rgb(241, 238, 66);
+    background-color: yellow;
+    background-image: url(SansBG.png);
     padding-top: 30px;
     padding-bottom: 1px;
     margin-top: -27.5px;
