@@ -51,7 +51,6 @@ h6 {
 }
 
 .cabeçalho {
-    background-color: yellow;
     background-image: url(SansBG.png);
     padding-top: 30px;
     padding-bottom: 1px;
@@ -223,26 +222,26 @@ a:hover {
 }
 
 #tips1 {
-    margin-right: 670px;
-    margin-left: 0px;
+    margin-right: 750px;
+    margin-left: 20px;
 }
 
 #tips2 {
     margin-top: -563px;
     margin-bottom: 5px;
-    margin-right:0px;
-    margin-left: 670px;
+    margin-right: 20px;
+    margin-left: 750px;
 }
 
 #tips3 {
     margin-top: 30px;
-    margin-right: 670px;
-    margin-left: 0px;
+    margin-right: 750px;
+    margin-left: 20px;
 }
 
 #tips4 {
     margin-top: -565px;
-    margin-right:0px;
-    margin-left: 670px;
+    margin-right: 20px;
+    margin-left: 750px;
 }
 /* --------------------------------------------- */
