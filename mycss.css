@@ -16,6 +16,19 @@
   font-style: normal;
 }
 
+        @media screen and (max-width: 600px) {
+            img, iframe {
+                width: 75%;
+                height: auto;
+            }
+        }
+
+        @media screen and (min-width: 600px) {
+            #UESB_V131, iframe {
+                width: 80%;
+                height: auto;
+            }
+        }
 /* BODY --------------------------------------------- */
 * {
     margin: 0;
