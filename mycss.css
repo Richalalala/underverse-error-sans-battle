@@ -39,7 +39,65 @@
 #home {
     text-align: center;
     font-family: 'determination', sans-serif;
-    background-color: rgb(152, 245, 248);
+}
+
+#home.light {
+    color:black;
+    .txtdorl{
+        color: white;
+        -webkit-text-stroke-color: black;
+    }
+    .cabeçalho {
+        opacity: 1;
+    }
+} 
+
+
+#home.dark {
+    color:white;
+    .txtdorl{
+        color: black;
+        -webkit-text-stroke-color: white;
+    }
+    .cabeçalho {
+        opacity: 0.65;
+    }
+}
+
+#home.light a {
+    color: white;
+    -webkit-text-stroke-color: black;
+}
+
+#home.light {
+    background-color: rgb(157, 240, 243);
+}
+
+#home.dark {
+    background-color: rgb(34, 80, 88);
+}
+
+#home.dark a {
+    color: black;
+    -webkit-text-stroke-color: white;
+}
+
+a {
+    -webkit-text-stroke-width: 0.01rem;
+    background-color: transparent;
+    text-decoration: none;
+    margin-left: 1.5vw;
+    margin-right: 1.5vw;
+}
+
+#home.light a:hover {
+    color: blueviolet;
+    font-size: 0.7rem;
+}
+
+#home.dark a:hover {
+    color: rgb(186, 107, 255);
+    font-size: 0.7rem;
 }
 
 p {
@@ -71,60 +129,80 @@ h6 {
 }
 
 .cabeçalho {
-    background-image: url(SansBG.png);
     padding-top: 3vw;
     padding-bottom: 0.5vw;
     margin-top: -1vw;
 }
 
-a {
-    color: white;
-    -webkit-text-stroke-color: black;
-    -webkit-text-stroke-width: 0.01rem;
-    background-color: transparent;
-    text-decoration: none;
-    margin-left: 1.5vw;
-    margin-right: 1.5vw;
-}
-
-a:hover {
-    color: blueviolet;
-    font-size: 0.7rem;
-}
-
 .text1 {
-    background-color: rgb(247, 195, 195);
     margin-top: 5vw;
     margin-bottom: 5vw;
     padding-bottom: 1.5vw;
     padding-left: 1.5vw;
     padding-right: 1.5vw;
 }
+
+#home.light .text1 {
+    background-color: rgb(247, 195, 195);
+}
+
+#home.dark .text1 {
+    background-color: rgb(104, 35, 35);
+}
+
+#home.light #toggleBtn{
+    color: black;
+}
+
+#home.dark #toggleBtn{
+    color: white;
+    background-color: black;
+}
 /* --------------------------------------------- */
 
 /* HOME --------------------------------------------- */
 #p1home_1 {
     font-size: 0.7rem;
+    -webkit-text-stroke-width: 0.05rem;
+}
+
+#home.light #p1home_1 {
     color: white;
     -webkit-text-stroke-color: black;
-    -webkit-text-stroke-width: 0.05rem;
+}
+
+#home.dark #p1home_1 {
+    color: black;
+    -webkit-text-stroke-color: white;
 }
 
 #p1home_2 {
-    -webkit-text-stroke-color: red;
     -webkit-text-stroke-width: 0.05rem;
 }
 
+#home.light #p1home_2 {
+    -webkit-text-stroke-color: red;
+}
+
+#home.dark #p1home_2 {
+    -webkit-text-stroke-color: rgb(255, 116, 116);
+}
+
 #p1home_3 {
-    -webkit-text-stroke-color: orange;
     -webkit-text-stroke-width: 0.05rem;
+}
+
+#home.light #p1home_3 {
+    -webkit-text-stroke-color: orange;
+}
+
+#home.dark #p1home_3 {
+    -webkit-text-stroke-color: rgb(255, 211, 129);
 }
 
 .h2home_1 {
     font-family: 'monster friend back', sans-serif;
     font-size: 0.7rem;
-    color: white;
-    -webkit-text-stroke-color: black;
     -webkit-text-stroke-width: 0.05rem;
 }
 /* --------------------------------------------- */
@@ -170,11 +248,45 @@ a:hover {
     -webkit-text-stroke-color: rgb(189, 0, 148);
     -webkit-text-stroke-width: 0.075rem;
 }
+
+#home.light #desc1 {
+    background-color: rgb(255, 255, 117);
+}
+
+#home.dark #desc1 {
+    background-color: rgb(149, 149, 42);
+}
 /* --------------------------------------------- */
 
 /* PAGE 2 --------------------------------------------- */
 .img_page2 {
     background-color: whitesmoke;
+}
+/* --------------------------------------------- */
+
+/* PAGE 3 --------------------------------------------- */
+#home.light {
+    #story1 {
+        background-color: rgb(235, 195, 247);
+    }
+    #story2 {
+        background-color: rgb(195, 247, 243)
+    }
+    #story3 {
+        background-color: rgb(244, 247, 195)
+    }
+}
+
+#home.dark {
+    #story1 {
+        background-color: rgb(119, 48, 141);
+    }
+    #story2 {
+        background-color: rgb(42, 134, 127);
+    }
+    #story3 {
+        background-color: rgb(149, 149, 42);
+    }
 }
 /* --------------------------------------------- */
 
@@ -222,10 +334,45 @@ a:hover {
 }
 
 .black {
-    color: black;
-    -webkit-text-stroke-color: white;
     -webkit-text-stroke-width: 0.045rem;
     font-size: 0.65rem;
+}
+
+#home.light {
+    #tips1 {
+        background-color: rgb(255, 123, 123);
+    }
+    #tips2 {
+        background-color: rgb(123, 251, 255);
+    }
+    #tips3 {
+        background-color: rgb(255, 193, 123);
+    }
+    #tips4{
+        background-color: rgb(123, 147, 255);
+    }
+    .black {
+        background-color: whitesmoke;
+    }
+}
+
+
+#home.dark {
+    #tips1 {
+        background-color: rgb(139, 45, 45);
+    }
+    #tips2 {
+        background-color: rgb(36, 132, 133);
+    }
+    #tips3 {
+        background-color: rgb(148, 105, 56);
+    }
+    #tips4{
+        background-color: rgb(49, 65, 138);
+    }
+    .black {
+        background-color: rgb(58, 58, 58);
+    }
 }
 
 #tips1 {
@@ -239,6 +386,7 @@ a:hover {
     margin-left: 50.5vw;
 }
 
+
 #tips3 {
     margin-right: 50.5vw;
     margin-left: 2.5vw;
@@ -248,5 +396,19 @@ a:hover {
     margin-top: -35vw;
     margin-right: 2.5vw;
     margin-left: 50.5vw;
+}
+/* --------------------------------------------- */
+
+/* PAGE 5 --------------------------------------------- */
+#home.light {
+    #profile {
+        background-color: white;
+    }
+}
+
+#home.dark {
+    #profile {
+        background-color: black;
+    }
 }
 /* --------------------------------------------- */
